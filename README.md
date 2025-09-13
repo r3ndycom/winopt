@@ -42,7 +42,7 @@ Optimasi Windows profesional untuk meningkatkan performa, kenyamanan, dan kebers
 1. Download file `.bat`  
 2. Jalankan sebagai **Administrator**  
 3. Pilih fitur dari menu interaktif  
-4. **Explorer menyegarkan otomatis** setelah setiap pengaturan  
+4. Explorer refresh otomatis setiap pengaturan.  
 
 ---
 
