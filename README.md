@@ -1,48 +1,27 @@
-# WUOptimizer
-Optimasi Windows 10/11: Explorer, klik kanan, bloatware, OneDrive &amp; Widgets.
+# 📝 Changelog – Windows Ultimate Optimizer [WUOptimizer]
 
-# 🖥️ Windows Ultimate Optimizer v5.1
+## 🚀 [8.2] – 15 Sep 2025
+### ✨ Perubahan Utama
+- 🔒 **Validasi OS lebih ketat**
+  - Menu 1–4 & 8 hanya bisa dijalankan di **Windows 11**
+  - Menu 6 hanya untuk **Windows 10**
+  - Pesan menu invalid diperbarui: `[!] Pilihan tidak valid hanya OS Windows 11`
 
-**Dibuat oleh:** [r3ndy.com](https://r3ndy.com)  
-**Versi:** 5.1  
-**Platform:** Windows 10 / 11  
-**Lisensi:** Gratis  
+- 🛠️ **Perbaikan Menu 3 & 4**
+  - Tidak muncul error `'Klik'` dan `'tips'`
+  - Simbol `[✓]` diganti `[OK]` agar kompatibel **Windows 10**
 
-Optimasi Windows profesional untuk meningkatkan performa, kenyamanan, dan kebersihan sistem. Menu interaktif, mudah digunakan, **Explorer akan otomatis menyegarkan setelah setiap pengaturan**.  
+- 🗑️ **Menu 6 – Hapus Bloatware Windows 10 diperluas**
+  - Menambahkan **Cortana, Copilot, Groove Music, Solitaire, Maps, Mail, Office, OneNote, Xbox, Xbox Game Tools**
+  - Shortcut aplikasi dihapus otomatis
+  - Proses aplikasi dimatikan sebelum uninstall agar tidak gagal
+  - Penghapusan provisioning package agar aplikasi tidak muncul di user baru
 
----
+- 🎨 **Konsistensi tampilan & simbol**
+  - `[OK]` untuk status sukses
+  - `[!]` untuk error atau validasi
+  - `[*]` untuk proses berjalan
 
-## ✨ Fitur Utama
-
-- 🗂️ **Explorer Klasik** – Kembalikan tampilan File Explorer lama *(Windows 11)*  
-- 🖱️ **Klik Kanan Klasik** – Menu konteks klasik *(Windows 11)*  
-- 🆕 **Explorer + Klik Kanan Modern** – Kembalikan pengaturan default *(Windows 11)*  
-- 🚫 **Matikan Iklan & Tips** – Nonaktifkan tips dan iklan Windows *(Windows 11)*  
-- 🧹 **Hapus Bloatware** – Copilot, Xbox, Teams, Outlook, Sticky Notes, dll  
-  - Windows 11: hapus semua bloatware  
-  - Windows 10: hapus bloatware saja, fitur lain tetap tersedia  
-- ☁️ **Hapus OneDrive** – Uninstall & blok reinstall *(Windows 11)*  
-- 📊 **Matikan Widgets** – Nonaktifkan widget Cuaca & Berita *(Windows 11)*  
-
----
-
-## 🛠️ Perbaikan Versi 5.1
-
-- Semua **echo aman**, tidak ada error  
-- **Opsi 3** (Explorer + Klik Kanan Modern) berhasil 100%  
-- Menu & title rapi, profesional  
-- Script kompatibel Windows 10 & 11  
-- **Explorer menyegarkan otomatis** setelah pengaturan  
-- Tidak ada karakter bermasalah (`&`, `+`, `...`)  
-
----
-
-## ⚡ Cara Penggunaan
-
-1. Download file `.bat`  
-2. Jalankan sebagai **Administrator**  
-3. Pilih fitur dari menu interaktif  
-4. Explorer refresh otomatis setiap pengaturan.  
-
----
-
+- 🛡️ **Peningkatan keamanan & stabilitas**
+  - Script auto-elevate dijamin jalan sebagai Administrator
+  - Semua perintah PowerShell menggunakan `-ErrorAction SilentlyContinue` untuk menghindari error saat aplikasi tidak ditemukan
