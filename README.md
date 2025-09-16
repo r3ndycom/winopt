@@ -1,6 +1,6 @@
 # 📝 Windows Ultimate Optimizer [WUOptimizer]
 
-# 🛠️ Fitur Utama – Windows Ultimate Optimizer v8.2
+# 🛠️ Fitur Utama – Windows Ultimate Optimizer
 
 | 🔹 Fitur | 🎯 Deskripsi | 💻 OS |
 |----------|-------------|-------|
